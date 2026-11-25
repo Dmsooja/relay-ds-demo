@@ -139,6 +139,7 @@ textarea.rd-input { resize: vertical; }
 .rd-modal.size-sm { width: min(24rem, calc(100vw - 2rem)); }
 .rd-modal.size-lg { width: min(50rem, calc(100vw - 2rem)); max-width: none; }
 .nav-actions .rd-button { white-space: nowrap; }
+.nav-actions .header-demo { background-color: var(--rd-info); }
 .dashboard-shell { min-height: 100dvh; display: grid; grid-template-columns: 244px minmax(0, 1fr); background: var(--rd-surface); }
 .dashboard-sidebar { background: var(--rd-darkest); color: var(--rd-paper); display: flex; flex-direction: column; gap: 30px; padding: 28px 18px; }
 .dashboard-brand { color: var(--rd-paper); text-decoration: none; padding-inline: 12px; }
