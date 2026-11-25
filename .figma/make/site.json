@@ -1,0 +1,10 @@
+{
+  "description": "A business platform that helps teams explore services and book a demo to see how the solution can support their needs.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
