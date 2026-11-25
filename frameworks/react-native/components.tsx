@@ -70,7 +70,7 @@ export function Input({ label, value, onChangeText, placeholder, error, state, e
     <TextInput value={value} accessibilityLabel={label} placeholder={placeholder} placeholderTextColor={t.muted}
       onChangeText={onChangeText} editable={state !== 'disabled'} multiline={multiline}
       autoCapitalize={email ? 'none' : 'sentences'} keyboardType={email ? 'email-address' : 'default'}
-      style={{ minHeight: multiline ? 100 : 48, borderWidth: 1, borderColor: error ? t.danger : '#7d8595',
+      style={{ minHeight: multiline ? 100 : 48, borderWidth: 1, borderColor: error ? t.danger : t.muted,
         borderRadius: 9, padding: 11, color: t.ink, fontSize: 16 }} />
     {!!error && <Text accessibilityLiveRegion="polite" style={{ color: t.danger }}>{error}</Text>}
   </View>

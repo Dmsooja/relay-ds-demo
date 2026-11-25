@@ -3,7 +3,7 @@
 Relay is a fictional B2B workflow product. Relay DS supplies the shared components and the Red and Blue themes across six marketing and workspace routes.
 
 - [Published Figma library](https://www.figma.com/design/MkqEVrtfKuaL91x47mSiT9/Relay-DS-Demo)
-- [Figma Make source project](https://www.figma.com/make/EmiD7CbXx5DynfBBjHDDcD)
+- [Figma Make file](https://www.figma.com/make/EmiD7CbXx5DynfBBjHDDcD) — created in Figma SCs; source upload was declined, so this file remains empty.
 - [GitHub source](https://github.com/Dmsooja/relay-ds-demo)
 - Package: `@sc-demo/relay-ds-demo@0.1.1` in the Figma private npm registry.
 
@@ -91,3 +91,9 @@ The parserless templates target 18 verified assets in [Relay DS Demo](https://ww
 The local validation parses the templates via the pinned Code Connect CLI and checks their node IDs, labels, and enum coverage. Live Dev Mode verification follows library publication and requires `FIGMA_ACCESS_TOKEN` in this project's `.env`. See `.env.example` for the key name.
 
 The approved marketing and workspace designs are in the existing [Pages section](https://www.figma.com/design/MkqEVrtfKuaL91x47mSiT9/Relay-DS-Demo?node-id=2012-155). Registry publication, the Figma Make project, and GitHub setup for the Code Layers demo are separate steps.
+
+## Release verification
+
+Version 0.1.1 is published to the Figma private registry, and all 61 Code Connect mappings were read back as template-backed: 18 React, 18 Angular, 18 Web Components, and seven React Native. The check covered 256 variant mappings. The source archive for a later Make import is kept locally in `artifacts/relay-ds-demo-source.tgz`; no source was uploaded to Make.
+
+The four web implementations passed the six-page flows in both themes at 1440px and 390px. The package consumer check rendered all 18 exports and bundled successfully. Generic standalone Tabs/Modal browser checks require the documented consumer interaction wiring. The legacy pipeline's full-authoring audit also expects different source paths and Figma parent-node responses; those compatibility gaps and remaining library QA are recorded in `AUDIT-REPORT.md` rather than reported as passes.

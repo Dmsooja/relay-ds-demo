@@ -78,4 +78,4 @@ Open the Make file's `package.json` and read the `react` version. The kit needs 
 - Input is a void element. Use value/defaultValue and onChange, with a visible label through FormField.
 - The shipped example app includes interaction wiring in shared/behavior.mjs. Package styles do not install that wiring automatically.
 - React, Angular and Web Components have 18 Code Connect mappings each; React Native has seven matching the implemented native library.
-- The Make file is a source import. Creating or attaching a reusable Make kit from the published package remains a distinct Make action.
+- The Make file was created in Figma SCs and remains empty: source upload was declined. The source archive stays local. Creating or attaching a reusable Make kit from the published package remains a distinct Make action.
