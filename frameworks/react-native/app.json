@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Relay DS Demo",
+    "slug": "relay-ds-demo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "bundleIdentifier": "demo.relay.ds", "supportsTablet": true },
+    "android": { "package": "demo.relay.ds" }
+  }
+}

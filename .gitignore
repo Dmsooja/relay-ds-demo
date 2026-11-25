@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-*/
+.angular/
+.expo/
+.extraction/
+.env
+.env.*
+!.env.example
+.npmrc
+*.tgz
+screenshots/
+frameworks/angular/public/
+.figma/entity_refs.json

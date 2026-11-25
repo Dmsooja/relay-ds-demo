@@ -1,0 +1,248 @@
+{
+  "Button": {
+    "id": "14:17",
+    "properties": {
+      "Label": "TEXT",
+      "Variant": [
+        "Primary",
+        "Secondary",
+        "Ghost",
+        "Danger"
+      ],
+      "Size": [
+        "Md",
+        "Sm",
+        "Lg"
+      ],
+      "State": [
+        "Default",
+        "Hover",
+        "Focus visible",
+        "Active",
+        "Disabled",
+        "Loading"
+      ]
+    }
+  },
+  "Link": {
+    "id": "15:2",
+    "properties": {
+      "Label": "TEXT",
+      "Variant": [
+        "Default",
+        "Subtle"
+      ],
+      "State": [
+        "Default",
+        "Hover",
+        "Focus visible"
+      ]
+    }
+  },
+  "Input": {
+    "id": "16:17",
+    "properties": {
+      "Label": "TEXT",
+      "Error": "TEXT",
+      "Placeholder": "TEXT",
+      "Value": "TEXT",
+      "State": [
+        "Default",
+        "Focus",
+        "Filled",
+        "Error",
+        "Disabled"
+      ]
+    }
+  },
+  "Select": {
+    "id": "17:4",
+    "properties": {
+      "Value": "TEXT",
+      "Label": "TEXT",
+      "Error": "TEXT",
+      "State": [
+        "Default",
+        "Focus",
+        "Filled",
+        "Error",
+        "Disabled"
+      ]
+    }
+  },
+  "FormField": {
+    "id": "17:52",
+    "properties": {
+      "Label": "TEXT",
+      "Helper Text": "TEXT",
+      "Error": "TEXT",
+      "State": [
+        "Default",
+        "Error"
+      ]
+    }
+  },
+  "Navbar": {
+    "id": "21:19",
+    "properties": {
+      "Mobile Open": "BOOLEAN",
+      "State": [
+        "Default",
+        "Mobile collapsed"
+      ]
+    }
+  },
+  "Footer": {
+    "id": "22:4",
+    "properties": {}
+  },
+  "Tabs": {
+    "id": "23:2",
+    "properties": {
+      "Variant": [
+        "Default",
+        "Pill",
+        "Bordered"
+      ],
+      "State": [
+        "Active",
+        "Inactive",
+        "Hover",
+        "Focus visible",
+        "Disabled"
+      ]
+    }
+  },
+  "Breadcrumb": {
+    "id": "23:97",
+    "properties": {
+      "Separator": [
+        "Slash",
+        "Chevron"
+      ]
+    }
+  },
+  "Card": {
+    "id": "24:7",
+    "properties": {
+      "Header": "TEXT",
+      "Content": "SLOT",
+      "Variant": [
+        "Default",
+        "Elevated",
+        "Bordered"
+      ]
+    }
+  },
+  "Accordion": {
+    "id": "24:39",
+    "properties": {
+      "Variant": [
+        "Default",
+        "Multi"
+      ],
+      "State": [
+        "Collapsed",
+        "Expanded",
+        "Hover",
+        "Focus visible",
+        "Disabled"
+      ]
+    }
+  },
+  "List": {
+    "id": "28:2",
+    "properties": {
+      "Variant": [
+        "Default",
+        "Icon",
+        "Bordered",
+        "Ordered"
+      ],
+      "Size": [
+        "Md",
+        "Sm"
+      ]
+    }
+  },
+  "Badge": {
+    "id": "29:17",
+    "properties": {
+      "Label": "TEXT",
+      "Variant": [
+        "Default",
+        "Success",
+        "Warning",
+        "Danger",
+        "Info"
+      ],
+      "Size": [
+        "Md",
+        "Sm"
+      ]
+    }
+  },
+  "Alert": {
+    "id": "30:2",
+    "properties": {
+      "Children": "TEXT",
+      "Dismissible": "BOOLEAN",
+      "Variant": [
+        "Info",
+        "Success",
+        "Warning",
+        "Danger"
+      ]
+    }
+  },
+  "Modal": {
+    "id": "32:2",
+    "properties": {
+      "Title": "TEXT",
+      "Content": "SLOT",
+      "Size": [
+        "Sm",
+        "Md",
+        "Lg"
+      ]
+    }
+  },
+  "Hero": {
+    "id": "34:2",
+    "properties": {
+      "Eyebrow": "TEXT",
+      "Title": "TEXT",
+      "Subtitle": "TEXT",
+      "Actions": "SLOT",
+      "Variant": [
+        "Centered",
+        "Split",
+        "Media"
+      ]
+    }
+  },
+  "FeatureGrid": {
+    "id": "35:8",
+    "properties": {
+      "Title": "TEXT",
+      "Items": "SLOT",
+      "Columns": [
+        "Two",
+        "Three",
+        "Four"
+      ]
+    }
+  },
+  "CTABanner": {
+    "id": "36:8",
+    "properties": {
+      "Title": "TEXT",
+      "Subtitle": "TEXT",
+      "Actions": "SLOT",
+      "Variant": [
+        "Brand",
+        "Subtle"
+      ]
+    }
+  }
+}

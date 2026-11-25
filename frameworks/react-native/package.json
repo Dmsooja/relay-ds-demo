@@ -1,0 +1,12 @@
+{
+  "name": "@relay-ds/react-native-demo",
+  "private": true,
+  "main": "expo/AppEntry",
+  "scripts": {
+    "start": "expo start",
+    "typecheck": "tsc --noEmit",
+    "build": "expo export --platform ios --platform android --no-bytecode"
+  },
+  "dependencies": { "expo": "~56.0.0", "react": "19.2.3", "react-native": "0.85.3", "react-native-safe-area-context": "~5.7.0" },
+  "devDependencies": { "@types/react": "~19.2.0", "typescript": "~5.9.0" }
+}

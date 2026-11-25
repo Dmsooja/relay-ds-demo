@@ -1,0 +1,16 @@
+// url=https://www.figma.com/design/MkqEVrtfKuaL91x47mSiT9/Relay-DS-Demo?node-id=36-8
+// source=https://github.com/Dmsooja/relay-ds-demo/blob/main/frameworks/angular/src/components.ts
+// component=CTABanner
+import figma from "figma"
+const instance = figma.selectedInstance
+const title = instance.getString("Title")
+const subtitle = instance.getString("Subtitle")
+const actions = instance.getSlot("Actions")
+const variant = instance.getEnum("Variant", {"Brand":"brand","Subtle":"subtle"})
+
+export default {
+  example: figma.code`<relay-ui kind="cta-banner" variant="${variant}"><div><h2>${title}</h2><p>${subtitle}</p></div>${actions}</relay-ui>`,
+  imports: ["import { RelayUIComponent } from \"../../frameworks/angular/src/components\""],
+  id: "red-angular-cta-banner",
+  metadata: { nestable: true },
+}

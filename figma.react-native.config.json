@@ -1,0 +1,9 @@
+{
+  "codeConnect": {
+    "include": [
+      "code-connect/react-native/*.figma.ts"
+    ],
+    "label": "React Native",
+    "language": "tsx"
+  }
+}

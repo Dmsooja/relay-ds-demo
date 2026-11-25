@@ -1,0 +1,41 @@
+/* Generated from tokens.mjs by scripts/sync-tokens.mjs */
+:root, [data-theme="red"] {
+  --rd-tint: #ffeae7;
+  --rd-bright: #fa2d0a;
+  --rd-action: #ec0900;
+  --rd-hover: #b90700;
+  --rd-deep: #8a1906;
+  --rd-darkest: #691304;
+  --rd-secondary: #ef7c00;
+}
+[data-theme="blue"] {
+  --rd-tint: #eaf1ff;
+  --rd-bright: #3b73fa;
+  --rd-action: #2155d5;
+  --rd-hover: #1744b5;
+  --rd-deep: #183587;
+  --rd-darkest: #12285f;
+  --rd-secondary: #457ae7;
+}
+:root {
+  --rd-paper: #ffffff;
+  --rd-surface: #f7f8fa;
+  --rd-ink: #171a24;
+  --rd-muted: #565d70;
+  --rd-border: #dce0e7;
+  --rd-success: #16684c;
+  --rd-success-tint: #e6f5ef;
+  --rd-warning: #775306;
+  --rd-warning-tint: #fff2d7;
+  --rd-danger: #a81d25;
+  --rd-danger-tint: #fff0f1;
+  --rd-info: #1744b5;
+  --rd-info-tint: #eaf1ff;
+  --rd-radius: 16px;
+  --rd-space-xs: 4px;
+  --rd-space-sm: 8px;
+  --rd-space-md: 16px;
+  --rd-space-lg: 24px;
+  --rd-space-xl: 32px;
+  --rd-space-xxl: 48px;
+}
