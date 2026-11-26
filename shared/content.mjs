@@ -1,5 +1,5 @@
 export const routes = [
-  { path: '/', label: 'Home', title: 'The work between teams, in sync!' },
+  { path: '/', label: 'Home', title: 'The work between teams, in sync.' },
   { path: '/solutions', label: 'Solutions', title: 'Build around the way work moves.' },
   { path: '/pricing', label: 'Pricing', title: 'A plan for the way you work.' },
   { path: '/contact', label: 'Contact', title: 'Let’s talk about your workflow.' },
